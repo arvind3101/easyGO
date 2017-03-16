@@ -29,7 +29,7 @@ public class LocationGetLocationActivity extends Activity {
 	private static final float MIN_DISTANCE = 10.0f;
 
 	// Views for display location information
-	private TextView mAccuracyView;
+	private TextView maccuracy;
 	private TextView mTimeView;
 	private TextView mLatView;
 	private TextView mLngView;
