@@ -32,7 +32,7 @@ public class LocationGetLocationActivity extends Activity {
 	private TextView maccuracy;
 	private TextView mTimeView;
 	private TextView mLatView;
-	private TextView mLngView;
+	private TextView mLn;
 
 	private int mTextViewColor = Color.GRAY;
 
