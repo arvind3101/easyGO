@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.page.MainActivity"
+    android:background="@drawable/easygo"
+    >
+
+    /*<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="248dp"
+        android:id="@+id/textView" /> */
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_marginBottom="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:fontFamily="sans-serif"
+        android:text="WELCOME TO THIS APPLICATION"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
